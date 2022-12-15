@@ -1,5 +1,5 @@
 # Data Source
-For the purpose of this project we used the [daztaset on COVID-19 by Our World in Data]https://github.com/owid/covid-19-data/blob/master/public/data/README.md
+For the purpose of this project we used the [dataset on COVID-19 by Our World in Data](https://github.com/owid/covid-19-data/blob/master/public/data/README.md)
 
 # Discussion -- Interpretations and Implications
 
