@@ -1,3 +1,13 @@
+# Discussion -- Interpretations and Implications
+
+Although we were unable to get feature importance for our neural network. We successfully retrieved feature importance for the inital approach. What we find is that features related to vaccinations, testing, and population are the best predictors of total deaths. 
+
+As a global health organization, our job is to use these results to inform both research and practice. These results indicate that we should be shifting resources towards providing more means of testing and vaccinations to the public. 
+In terms of research, we can minimize deaths from COVID-19 by optimizing the effectiveness of vaccines and the precision/accuracy of tests.
+
+Policymakers (us)
+    - Our goal is to maximize the health our patients leveraging whatever resources we have. Our results reinforce some assumptions the lay public already has about COVID-19, namely that social-distancing, vaccination, and testing prevents COVID-19 death. Thus our best route of action is to architect more social distancing initiatives, pop-up vaccination booths, and meet demand of testing kits.
+
 # Challenges
 ## Feature selection/engineering
 ### **Outliers**
