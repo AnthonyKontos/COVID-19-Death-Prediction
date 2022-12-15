@@ -1,3 +1,6 @@
+# Data Source
+For the purpose of this project we used the [daztaset on COVID-19 by Our World in Data]https://github.com/owid/covid-19-data/blob/master/public/data/README.md
+
 # Discussion -- Interpretations and Implications
 
 Although we were unable to get feature importance for our neural network. We successfully retrieved feature importance for the inital approach. What we find is that features related to vaccinations, testing, and population are the best predictors of total deaths. 
