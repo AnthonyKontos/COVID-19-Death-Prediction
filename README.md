@@ -27,7 +27,7 @@ Policymakers (us)
     
    Because the gradient for ReLU is either 0 or 1 it can never saturate and our gradients never vanish. The caveat to this is that we can get dead ReLUs -- our neurons will only output 0 and as a result never learn because the gradient is never transferred. We could have potentially solved this problem by using some variant of leaky ReLU; however, leaky ReLU is slower when making predictions and we would have to reevaluate how much time we are willing to sacrifice for a performance boost.
 
-## Diverse data vs quality data
+## Diverse data vs Quality data
 
 In this notebook we decided to use a set of countries we thought were representative of the world population -- in other words, a set of countries where the input variables cover a diverse/wide range of values. Had we not chosen a diverse enough subset of data, our machine learning algorithms would result in overfitting. What this means is that the model will have decreased generalizability; it will produce very good results on training data, but it will perform poorly on unseen data. Because we are interpreting this model from the perspective of a global health organization, we will be introducing bias to our results by selecting nations based on featuresf that we will at the same time be feeding into our models.
 
